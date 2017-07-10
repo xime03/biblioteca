@@ -1,0 +1,284 @@
+BODY
+{
+	background: url(../imagenes/Fondo.png) no-repeat center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+.h1
+{
+	color: #afff;
+	text-align: center;
+
+}
+.form-register
+{
+
+	width: 95%;
+	max-width: 500%;
+	margin: auto;
+	background: white;
+	border-radius: 7px;
+
+}
+
+.form__titulo
+{
+
+	background: deepskyblue;
+	color: #afff;
+	padding: 20px;
+	text-align: center;
+	font-weight:100;
+	font-size: 30px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom: 5px solid crimson; 
+
+}
+
+.contenedor-inputs
+{
+
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap:wrap;
+
+}
+
+input
+{
+	margin-bottom: 2px;
+	padding: 4px;
+	font-size: 11px;
+	border-radius: 1px solid darkgray;
+	
+}
+
+.input-48
+{
+
+	width: 47%;
+
+}
+
+
+.input-100
+{
+
+	width: 97%
+
+}
+
+.btn-enviar
+{
+	background: crimson;
+	color: #fff;
+	margin: auto;
+	padding: 10px 40px;
+	cursor: pointer;
+}
+
+.btn-enviar:active
+{
+
+	transform: scale(1.05;)
+
+}
+
+.form__link
+{
+
+	width: 100%;
+	margin: 7px;
+	text-align: center;
+	font-size: 14px;
+
+}
+
+
+
+#principal
+{
+  width: 850px;
+  border: 1px solid #39ff14;
+  margin: 50px auto; 
+  border: 1px solid #696;
+  
+
+
+border: 1px solid #696;
+
+
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: #666 0px 2px 3px;
+-moz-box-shadow: #666 0px 2px 3px;
+box-shadow: #666 0px 2px 3px;
+background: #3DE7E2;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#3DE7E2), to(#F9FAFA));
+background: -webkit-linear-gradient(#3DE7E2, #F9FAFA);
+background: -moz-linear-gradient(#3DE7E2, #F9FAFA);
+background: -ms-linear-gradient(#3DE7E2, #F9FAFA);
+background: -o-linear-gradient(#3DE7E2, #F9FAFA);
+background: linear-gradient(#3DE7E2, #F9FAFA);
+-pie-background: linear-gradient(#3DE7E2, #F9FAFA);
+behavior: url(/pie/PIE.htc);
+   
+}
+
+
+#cabecera
+{
+
+  height: 100px;
+  border: 1px solid #39ff14;
+  margin: 10px;
+  
+
+-webkit-box-shadow: #666 0px 2px 3px;
+-moz-box-shadow: #666 0px 2px 3px;
+box-shadow: #666 0px 2px 3px;
+background: #3DE7E2;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#3DE7E2), to(#F9FAFA));
+background: -webkit-linear-gradient(#3DE7E2, #F9FAFA);
+background: -moz-linear-gradient(#3DE7E2, #F9FAFA);
+background: -ms-linear-gradient(#3DE7E2, #F9FAFA);
+background: -o-linear-gradient(#3DE7E2, #F9FAFA);
+background: linear-gradient(#3DE7E2, #F9FAFA);
+-pie-background: linear-gradient(#3DE7E2, #F9FAFA);
+behavior: url(/pie/PIE.htc);
+
+
+}
+#menu
+{
+  background: url(../imagenes/fonMen.png);
+  background-repeat:repeat x;
+  height: 40px;
+  border: 1px solid #39ff14;
+  margin: 10px 0px 10px 0px;
+}
+
+
+#menu ul
+{
+  list-style: none;
+  padding: 0;
+}
+
+#menu li
+{
+  line-height: 1rem;
+  position: relative;
+}
+
+#menu li ul
+{
+  position: absolute;
+}
+
+#menu a
+{
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 0 2.5em;
+  transition: .4s;
+}
+
+#menu a:hover
+{
+  background: rgba(0,0,0,.2);
+}
+
+/*
+#menu li ul
+{
+ display:none;
+}
+
+#menu li:hover ul
+{
+  display: block;
+}
+*/
+
+#menu > ul
+{ 
+  display: table;
+  width: 100%;
+}
+
+#menu > ul > li
+{
+ float: left;
+}
+
+/*SEGUNDO NIVEL*/
+
+#menu li li
+{
+  background: #0E8FA6;
+  max-height: 0;
+  overflow: hidden;
+  transition: all .4s;
+  width: 200px;
+}
+
+#menu li:hover > ul > li 
+{
+  max-height: 500px;
+  overflow: visible;
+}
+
+#menu > ul > li > ul
+{
+  top: 100%;
+}
+
+
+
+
+#columna
+{
+  width: 200px;
+  border: 1px solid #39ff14;
+  margin: 10px;
+  float: left;
+}
+#cuerpo
+{
+  width: 605px;
+  border: 1px solid #39ff14;
+  margin: 10px;
+  float: left;
+  
+  border-radius: 8px;
+-webkit-box-shadow: #666 0px 2px 3px;
+-moz-box-shadow: #666 0px 2px 3px;
+box-shadow: #666 0px 2px 3px;
+
+}
+
+.clear
+{
+  clear: both;
+}
+
+#pie
+{
+  height: 50px;
+  border: 1px solid #39ff14;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+

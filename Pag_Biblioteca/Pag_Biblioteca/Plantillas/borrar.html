@@ -1,0 +1,83 @@
+{% load staticfiles %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+
+		<meta charset="utf-8">
+		<TITLE>Mi_Biblioteca</TITLE>
+		<link rel="stylesheet" href ="{% static '/css/estilo.css' %}">
+
+<!-- <img width="150" height="115" src="{% static "imagenes/Biblioteca.jpn" %}" "/> -->
+
+	</HEAD>
+	<BODY>
+		
+		<div id="principal">
+			
+			<div id="cabecera">
+				<img width="827" height="100" src="{% static "imagenes/Cabecera.png" %}" "/>
+			</div>
+			
+			<div id="menu">
+			<ul>
+				<li><a href="http://127.0.0.1:8000/inicio/">Inicio</a></li>
+				
+				<li><a href="#">Libreria</a>
+					<ul>
+						<li><a href="http://127.0.0.1:8000/reservar/">Reservar</a></li>
+						<li><a href="http://127.0.0.1:8000/pedir/">Pedir</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Usuario</a>
+					<ul>
+						<li><a href="http://127.0.0.1:8000/registrar/">Registrar</a></li>
+						<li><a href="http://127.0.0.1:8000/ver/">Ver</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Libros</a>
+					<ul>
+						<li><a href="http://127.0.0.1:8000/ingresar/">Ingresar</a></li>
+						<li><a href="http://127.0.0.1:8000/borrar/">Borrar</a></li>
+					</ul>
+				</li>
+			</ul>	
+				
+			</div>
+			
+			
+			<div id="columna">
+			
+						<svg viewBox="0 0 30 30" href="http://www.google.com" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M2.955 14.93l2.667-4.62H16l-2.667 4.62H2.955zm2.378-4.62l-2.666 4.62L0 10.31l5.19-8.99 2.666 4.62-2.523 4.37zm10.523-.25h-5.333l-5.19-8.99h5.334l5.19 8.99z"/></svg>
+						<svg viewBox="0 0 30 30" href="http://facebook.com" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M11.665 9.588c-.2-.1-1.177-.578-1.36-.644-.182-.067-.315-.1-.448.1-.132.197-.514.643-.63.775-.116.13-.232.14-.43.05-.2-.1-.842-.31-1.602-.99-.592-.53-.99-1.18-1.107-1.38-.116-.2-.013-.31.087-.41.09-.09.2-.23.3-.35.098-.12.13-.2.198-.33.066-.14.033-.25-.017-.35-.05-.1-.448-1.08-.614-1.47-.16-.39-.325-.34-.448-.34-.115-.01-.248-.01-.38-.01-.134 0-.35.05-.532.24-.182.2-.696.68-.696 1.65s.713 1.91.812 2.05c.1.13 1.404 2.13 3.4 2.99.476.2.846.32 1.136.42.476.15.91.13 1.253.08.383-.06 1.178-.48 1.344-.95.17-.47.17-.86.12-.95-.05-.09-.18-.14-.38-.23M8.04 14.5h-.01c-1.18 0-2.35-.32-3.37-.92l-.24-.143-2.5.65.67-2.43-.16-.25c-.66-1.05-1.01-2.26-1.01-3.506 0-3.63 2.97-6.59 6.628-6.59 1.77 0 3.43.69 4.68 1.94 1.25 1.24 1.94 2.9 1.94 4.66-.003 3.63-2.973 6.59-6.623 6.59M13.68 2.3C12.16.83 10.16 0 8.03 0 3.642 0 .07 3.556.067 7.928c0 1.397.366 2.76 1.063 3.964L0 16l4.223-1.102c1.164.63 2.474.964 3.807.965h.004c4.39 0 7.964-3.557 7.966-7.93 0-2.117-.827-4.11-2.33-5.608"/></svg>
+			</div>
+			
+			<div id="cuerpo">
+
+								<form action="Borrar " method="get"
+					class="form-register">
+					<h2 class="form__titulo">Borrar Libro</h2>
+					<div class="contenerdor-input">
+						<input type="text" name="codigo_libro"
+							placeholder="Codigo_Libro" class="input-48">
+			
+						<input type="submit" value="Borrar" class="btn-enviar">
+			
+					</div>
+				
+			</div>
+			
+			<div class="clear">
+				
+			</div>
+			
+			<div id="pie">
+			
+				Autor &copy; S.Pallazhco, Carlos Sanchez, Ximena Orellana
+
+			</div>
+			
+			
+		</div>
+
+	</BODY>
+</HTML>
